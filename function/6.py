@@ -7,7 +7,6 @@ def print_word_permutations():
     for perm in perm_list:
         print(perm)
 
-# Вызов функции
 print_word_permutations()
 
 
