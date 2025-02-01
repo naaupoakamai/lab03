@@ -34,8 +34,8 @@ movies = [
     {"name": "We Two", "imdb": 7.2, "category": "Romance"}
 ]
 
-print(is_highly_rated(movies[0]))  # True
-print(highly_rated_movies(movies))  # List of movies with IMDB > 5.5
-print(movies_by_category(movies, "Romance"))  # List of Romance movies
-print(average_imdb(movies))  # Average IMDB of all movies
-print(average_imdb_by_category(movies, "Romance"))  # Average IMDB of Romance movies
+print(is_highly_rated(movies[0]))
+print(highly_rated_movies(movies))
+print(movies_by_category(movies, "Romance"))
+print(average_imdb(movies)) 
+print(average_imdb_by_category(movies, "Romance"))
